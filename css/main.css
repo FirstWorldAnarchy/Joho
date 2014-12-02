@@ -27,9 +27,18 @@ body {
 }
 
 .box {
+	padding-bottom: 10px;
+}
+
+.color-box {
+	margin: auto;
+	width: 200px;
+	height: 50px;
+	transition: background 1s;
+}
+
+.section {
 	background: rgb(138,236,255);
-	border: 1px solid rgb(128,226,245);
-	height: 475px;
 }
 
 .header-content {
