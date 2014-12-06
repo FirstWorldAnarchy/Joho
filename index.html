@@ -9,13 +9,13 @@
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/anim.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <!-- END CSS -->
 
     <!-- JS -->
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/bounce.min.js"></script>
     <script src="js/bounces.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/main.js"></script>
@@ -31,7 +31,7 @@
 		<div class="main-content">
 
 			<div class="container-fluid section-header">
-				<h1>Time-Related Stuff</h1>
+				<h1>Time</h1>
 			</div>
 
 			<div class="container-fluid">
@@ -50,9 +50,13 @@
 						<h1>Other parts of the world</h1>
 						<br>
 						<p>Alternatively, select a timezone:</p>
-						<p>Beijing</p>
-						<p>London</p>
-						<p>London</p>
+						<select>
+							<option value="beijing">Beijing</option>
+							<option value="london">London</option>
+							<option value="new-delhi">New Delhi</option>
+							<option value="sydney">Sydney</option>
+						</select>
+						<p class="time-select-zone"></p>
 					</div>
 				</div>
 			</div>
@@ -79,6 +83,19 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="container-fluid section-header">
+				<h1>Numbers</h1>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row section">
+					<div class="col-lg-4 col-md-4 box"></div>
+					<div class="col-lg-4 col-md-4 box"></div>
+					<div class="col-lg-4 col-md-4 box"></div>
+				</div>
+			</div>
+
 		</div>
 
 		<!-- END MAIN CONTENT -->
