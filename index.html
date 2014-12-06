@@ -16,8 +16,8 @@
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bounce.min.js"></script>
-    <script src="js/randomColor.js"></script>
     <script src="js/bounces.js"></script>
+    <script src="js/utils.js"></script>
     <script src="js/main.js"></script>
     <!-- END JS-->
   </head>
@@ -37,59 +37,45 @@
 			<div class="container-fluid">
 				<div class="row section">
 					<div class="col-lg-6 col-md-6 box">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 box">
-				<div class="row">
-					<div class="col-lg-4 box">
 						<h1>Local Time</h1>
 						<br>
 						<p>Your current local time is</p>
 						<p class="time-local"></p>
 						<p>Which in 12-hour time (if you prefer) is</p>
 						<p class="time-local-12-hour"></p>
-						<p>Here it is on a clock:<br>WIP</p>
+						<p>And Epoch Time:</p>
+						<p class="time-epoch"></p>
 					</div>
-					<div class="col-lg-4 box">
+					<div class="col-lg-6 col-md-6 box">
 						<h1>Other parts of the world</h1>
 						<br>
 						<p>Alternatively, select a timezone:</p>
 						<p>Beijing</p>
 						<p>London</p>
 						<p>London</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid section-header">
+				<h1>Colors</h1>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row section">
+					<div class="col-lg-4 col-md-4 box ">
+						<h1>RGB-HEX Converter</h1>
+						<div class="color-box"></div>
+						<br><br><br>
+						<p>RGB:</p>
+						<input type="text" id="rgbInput"/>
+						<p>HEX:</p>
+						<input type="text" id="hexInput"/>
+						<br><br><br><br>
+					</div>
 					<div class="col-lg-4 col-md-4 box">
-						<h1>Other parts of the world</h1>
-						<br>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
 					</div>
-					<div class="col-lg-4 col-my-4 box">
-					<div class="col-lg-4 box">
-						<h1>Epoch Time</h1>
-						<p>(Applicable only to nerds)</p>
-						<p class="time-epoch">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-					<div class="col-lg-4 box">
-						<h1>Epoch Time</h1>
-						<p>(Applicable only to nerds)</p>
-						<p class="time-epoch">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt ins culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="col-lg-4 col-md-4 box">
 					</div>
 				</div>
 			</div>
