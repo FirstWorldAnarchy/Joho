@@ -41,10 +41,6 @@ body {
 	background: rgb(138,236,255);
 }
 
-.header-content {
-	opacity: 0;
-}
-
 .line {
 	height: 1px;
 	border: 1px solid black;

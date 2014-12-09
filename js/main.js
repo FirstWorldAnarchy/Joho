@@ -11,11 +11,9 @@ function startAnimations() {
 	$(".slide-up").css({height: $(window).height() - $(".header-box").height()});
 	$("#hexInput").val("#000000")
 	$("#rgbInput").val("0,0,0");
-	headerContent.applyTo($(".header-content"));
-	$(".header-content").animate({opacity: 1});
+	$(".header-content").addClass("animated header-content-anim");
 	setTimeout(function() {
 		$(".slide-up").animate({height: 0});
-		mainContent.applyTo($(".main-content"));
 	}, 2500);
 
 	setTimeout(function() {
