@@ -8,7 +8,7 @@
 				transform: scale(1.7) rotate(35deg);
 	}
 	80% {
-		-webkit-transform: rotate(25deg);
+		-webkit-transform: scale(1.7) rotate(25deg);
 				transform: rotate(25deg);
 	}
     90% {
@@ -31,7 +31,7 @@
 				transform: scale(1.7) rotate(35deg);
 	}
 	80% {
-		-webkit-transform: rotate(25deg);
+		-webkit-transform: scale(1.7) rotate(25deg);
 				transform: rotate(25deg);
 	}
     90% {
