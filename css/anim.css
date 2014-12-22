@@ -15,7 +15,7 @@
     	-webkit-transform: scale(0.8) rotate(15deg);
 				transform: scale(0.8) rotate(15deg);
 	}
-	100% {
+	to {
 		-webkit-transform: scale(1) rotate(0deg);
 				transform: scale(1) rotate(0deg);
 	}
@@ -38,7 +38,7 @@
     	-webkit-transform: scale(0.8) rotate(15deg);
 				transform: scale(0.8) rotate(15deg);
 	}
-	100% {
+	to {
 		-webkit-transform: scale(1) rotate(0deg);
 				transform: scale(1) rotate(0deg);
 	}
