@@ -2,4 +2,4 @@ Joho
 ====
 
 A very useful website
-Live Website over [here](http://firstworldanarchy.github.io/Joho/)!
+Live Website over [here](http://javaftw.github.io/Joho/)!
